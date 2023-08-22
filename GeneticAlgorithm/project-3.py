@@ -9,7 +9,7 @@ def objective_function(x1):
 
 # Define constraints
 def constraint1(x1):
-    return 3 <= x1 <= 10
+    return -2 <= x1 <= 10
 
 
 def genetic_algorithm(population_size, num_generation):
